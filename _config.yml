@@ -1,16 +1,16 @@
 # Site settings
-title:       :[
+title:       Ash Taylor, Senior Front-End Developer
 email:       a@zi.vc
 author:      Ash Taylor
-description: "Wagwan fam"
+description: "Ash Taylor, Senior Front-End Developer, blogging for lack of a better word, solutions, thoughts, trials and tribulations encountered working within fintech"
 baseurl:     ""
 url:         "http://ash.zi.vc"
 
 # Google analytics
-google_analytics:
+google_analytics: UA-61941979-1
 
 # Optional features
-animated:           false
+animated:           true
 show_related_posts: false
 show_post_footers:  false
 
@@ -24,22 +24,22 @@ github_username: zivc
 stackoverflow_id:
 twitter_username: zivcjs
 google_plus_id:
-linkedin_username:
+linkedin_username: 60335448
 bitcoin_url:
 paypal_url:
 flattr_button:
 
 # Post sharing icons
-show_sharing_icons: false
-share_text: 'Share this post!'
+show_sharing_icons: true
+share_text: 'Clog up someones newsfeed with this post!'
 # Change to 'true' to enable individual icons
-share_facebook: false
-share_twitter: false
-share_googleplus: false
-share_linkedin: false
+share_facebook: true
+share_twitter: true
+share_googleplus: true
+share_linkedin: true
 share_digg: false
 share_tumblr: false
-share_reddit: false
+share_reddit: true
 share_stumbleupon: false
 
 # Build settings
@@ -47,6 +47,6 @@ markdown:     redcarpet
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
-paginate:     10
+paginate:     20
 sass:
   compressed: true
