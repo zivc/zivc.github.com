@@ -3,7 +3,7 @@ layout:     post
 title:      Including npm client side modules in your sails application
 date:       2016-02-02 13:30:30
 summary:    I for one don't like using bower, so I shall show you how I feel is the best way to including packages from npm into your assets directory in sailsjs
-categories: random
+categories: sails
 ---
 
 I for one don't like using Bower because 99.9% of the packages I need are available through npm - or you can just npm install straight from git anyway.
