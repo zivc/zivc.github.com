@@ -10,7 +10,7 @@ I for one don't like using Bower because 99.9% of the packages I need are availa
 
 But because Sails file structure is the way it is, the `node_modules/` directory sits outside of the publically accessible `assets/` and `.tmp/public` directories. This could cause a headache if you're new to Sails and the easy way out is to use something like Bower. Don't do that. Don't copy them to `assets/` either if that directory is under version control in git/svn etc.
 
-Instead, install your packages like normal to and then inside `tasks/config/copy.js` you can just add a new object to the array under the `dev` task, like so:
+Instead, install your packages like normal, and then inside `tasks/config/copy.js` you can just add a new object to the array under the `dev` task, like so:
 
 <pre>
 	<code class="javascript">
