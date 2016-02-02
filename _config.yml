@@ -1,7 +1,7 @@
 # Site settings
-title:       Ash Taylor, Senior Front-End Developer
+title:       Ash
 email:       a@zi.vc
-author:      Ash Taylor
+author:      Ash
 description: "Ash Taylor, Senior Front-End Developer, blogging for lack of a better word, solutions, thoughts, trials and tribulations encountered working within fintech"
 baseurl:     ""
 url:         "http://ash.zi.vc"
@@ -19,7 +19,7 @@ show_post_footers:  false
 disqus_shortname:
 
 # Social icons
-show_social_icons: false
+show_social_icons: true
 github_username: zivc
 stackoverflow_id:
 twitter_username: zivcjs
@@ -47,6 +47,6 @@ markdown:     redcarpet
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
-paginate:     20
+paginate:     50
 sass:
   compressed: true
