@@ -57,7 +57,8 @@ program.parse(process.argv);
 
 This let us use the same command with a different argument to control how we wanted to run the application. Note, these commands are to be ran by people who have no idea what Sails is, or nodejs for that matter - traditional Java developers.
 
-So in the exmaple above we have these steps;
+So in the example above we have these steps;
+
 * _build_ - Bundle the *required* dependencies, compile all the JS and CSS and then throw it all into a file and zip it up
 * _dev_ - Essentially run `sails console`
 * _server_ - Same as `sails lift` but with `--prod` appended to the arguments
