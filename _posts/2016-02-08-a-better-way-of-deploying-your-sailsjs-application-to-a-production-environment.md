@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      A better way of deplpying your SailsJS application to a production-esque environment
+title:      A better way of deploying your SailsJS application to a production-esque environment
 date:       2016-02-08 18:52:30
 summary:    Sails does it good but we don't need to compile our assets everytime we lift
 categories: sails
