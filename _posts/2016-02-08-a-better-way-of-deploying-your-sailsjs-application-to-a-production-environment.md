@@ -127,7 +127,7 @@ module.exports = function(command) {
 	</code>
 </pre>
 
-## Sample app.js
+## Sample server.js
 
 <pre>
 	<code class="javascript">
@@ -155,11 +155,15 @@ module.exports = function(command) {
 	</code>
 </pre>
 
-The key thing here is that we've disabled grunt, and we've stripped out all of the npm modules we don't need so when it comes to running our app in production.
+So now in our project we have a shiny new `dist/` folder that took a while to create. We upload the contents of this folder and this folder only to our servers.
 
-The benefits here are, smaller file to upload, less disk space consumed, less time spent getting the application in a production-state as we have it pre-compiled.
+What did we really achieve though? The key thing here is that we've disabled grunt by specifying `grunt:false` in our `server.js` lift method. Grunt is a task runner, hopefully we don't need to run tasks anymore in production, like recompiling CSS or linting our code. They're dev tasks, and thats the whole point of having a task runner on your dev machine is that you can change a file, and grunt would do its magic, and saving you bundles of time.
 
-In my application running `sails lift --prod` takes 26 seconds, mostly due to uglifying our client side Javascript. When we pre-compile the application and deploy the dist folder it takes 1.3seconds to lift using `node app.js`. That is 95% reduction in load times.
+We've also only copied over the bare necessities of our `node_modules/` folder. This helps for a bunch of reasons such as no dependency on npm or the time it takes to get the dependencies we need, and lets us trim the fat by shipping modules we only need in production. For example you wouldn't need the whole of bootstrap deployed as a node_module if you've already compiled your LESS into CSS.
+
+In my application, running `sails lift --prod` takes 26 seconds, mostly due to uglifying our client side Javascript. When we pre-compile the application and deploy the dist folder it takes 1.3seconds to lift using `node app.js`. That is 95% reduction in load times.
+
+So now if you roll out to more machines, or you just deploy a new version to the current server(s) you have, your exposure to users seeing half-compiled assets is now virtually nil.
 
 Feel free to give me your thoughts and comments and maybe you have a better way to do it?
 
