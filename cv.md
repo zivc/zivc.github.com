@@ -5,7 +5,7 @@ permalink: /cv/
 ---
 
 # Ashley Taylor
-## Senior Front-End Developer/Javascript Developer
+## Senior Front-End Developer/JavaScript Developer
 ### London, UK
 
 > [a@zi.vc](mailto:a@zi.vc)
@@ -27,7 +27,7 @@ Experienced front-end developer based in London. Working in various types of com
 ### Skills
 
 * The full works
-	: HTML5, CSS3, Javascript. Less, NodeJS, SailsJS, AngularJS, d3, Bootstrap, jQuery.
+	: HTML5, CSS3, JavaScript. Less, NodeJS, SailsJS, AngularJS, d3, Bootstrap, jQuery.
 	: Photoshop, Balsamiq, Illustrator, Sony Vegas, FFMPEG
 	: PHP, MySQL, NGINX, Apache, Git (Github & Stash), JIRA
 
@@ -41,7 +41,7 @@ Experienced front-end developer based in London. Working in various types of com
 
 1. HTML5
 1. CSS/CSS3 (Less, Sass, Bootstrap, Zurb)
-1. Javascript (AngularJS, React, SailsJS, NodeJS, d3, jQuery)
+1. JavaScript (AngularJS, React, SailsJS, NodeJS, d3, jQuery)
 1. L*MP Stack (PHP, MySQL, nginx, apache)
 1. Task runners & build tools (Grunt/Gulp/Bash)
 1. Git & SVN
@@ -53,9 +53,9 @@ Experienced front-end developer based in London. Working in various types of com
 
 ### Current Position
 
-__FIS Global / SunGard Financial Systems__ : *UX/Javascript Developer* __July 2014 - Present__
+__FIS Global / SunGard Financial Systems__ : *UX/JavaScript Developer* __July 2014 - Present__
 
-Joined SunGard APT in July 2014 as a sole UX/Javascript developer to improve, and really evangelise the front-end work flow on our risk management offering, APT Enterprise which is marketed towards mainly institutional hedgefunds, other large UK banks and pension funds.
+Joined SunGard APT in July 2014 as a sole UX/JavaScript developer to improve, and really evangelise the front-end work flow on our risk management offering, APT Enterprise which is marketed towards mainly institutional hedgefunds, other large UK banks and pension funds.
 
 Working with a MEAN stack (M for MySQL) in an Agile environment, my main purpose is influencing front-end architecture decisions to the rest of the team (mainly Java developers) and sparking new ideas in an industry that conventionally uses Java and GWT.
 
