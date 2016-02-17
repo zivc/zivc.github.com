@@ -59,7 +59,7 @@ Joined SunGard APT in July 2014 as a sole UX/JavaScript developer to improve, an
 
 Working with a MEAN stack (M for MySQL) in an Agile environment, my main purpose is influencing front-end architecture decisions to the rest of the team (mainly Java developers) and sparking new ideas in an industry that conventionally uses Java and GWT.
 
-Portion of my time is spent building internal tools to improve the work flow of our Managed Services and Client Services teams across our main, multi-tenant application.
+A portion of my time is spent building internal tools to improve the work flow of our Managed Services and Client Services teams across our main, multi-tenant application.
 
 As of 2015 I have been tasked with re-building the entire UI of one of our risk management offerings, APT Enterprise. We're using SailsJS (Real-Time NodeJs MVC framework) for the REST API and AngularJS for the client side MVC framework. For large data grids we also leverage React to get much faster render times when Angulars $digest cycle gets too slow. We use KendoUI throughout this application plus a library of hand-crafted components. Our Sails application reads from a read-only database instance and then proxies requests through to a traditional Java app server via AMQP.
 
