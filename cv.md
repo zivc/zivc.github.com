@@ -1,9 +1,3 @@
----
-layout: page
-title: CV
-permalink: /cv/
----
-
 # Ashley Taylor
 ## Senior Front-End Developer/JavaScript Developer
 ### London, UK
@@ -12,40 +6,16 @@ permalink: /cv/
 > 07515349256
 > [Github](http://github.com/zivc)
 
+### Key Skills
+* HTML5, CSS3, Bootstrap, Bulma, JavaScript, AngularJS, KendoUI
+* NodeJS, Sails, Socket.IO, MySQL, Sysadmin
 
 ------
 
 
 ### Profile
 
-Experienced front-end developer based in London. Working in various types of companies (PaaS, Fintech, Gambling startups, Full service digital agencies amongst others) and environments spanning 8 years. Admirably _self-taught_, well versed in the full front-end stack, with back end complements (SQL, PHP, Sysadmin etc).
-
-
-------
-
-
-### Skills
-
-* The full works
-	: HTML5, CSS3, JavaScript. Less, NodeJS, SailsJS, AngularJS, d3, Bootstrap, jQuery.
-	: Photoshop, Balsamiq, Illustrator, Sony Vegas, FFMPEG
-	: PHP, MySQL, NGINX, Apache, Git (Github & Stash), JIRA
-
-* Product development
-	: Prototyping, research & development, user experience
-
-* Project management
-	: Resource management, timings, code reviews, appraisals, hiring
-
-### Technical
-
-1. HTML5
-1. CSS/CSS3 (Less, Sass, Bootstrap, Zurb)
-1. JavaScript (AngularJS, React, SailsJS, NodeJS, d3, jQuery)
-1. L*MP Stack (PHP, MySQL, nginx, apache)
-1. Task runners & build tools (Grunt/Gulp/Bash)
-1. Git & SVN
-1. Photoshop, Balsamiq
+Experienced front-end developer based in Blackheath, London. Very little formal education, a whole lot of self-educating. I have a career spanning 10 years for various types of companies and environments including clients from a wide range of industries.
 
 
 ------
@@ -55,16 +25,11 @@ Experienced front-end developer based in London. Working in various types of com
 
 __FIS Global / SunGard Financial Systems__ : *UX/JavaScript Developer* __July 2014 - Present__
 
-Joined SunGard APT in July 2014 as a sole UX/JavaScript developer to improve, and really evangelise the front-end work flow on our risk management offering, APT Enterprise which is marketed towards mainly institutional hedgefunds, other large UK banks and pension funds.
+As the sole JS developer for FIS in Canary Wharf, I develop APT EnterpriseUI, part of a suite of Risk Management offerings the Buy-Side Asset Management area of FIS has. Main clients include the large UK retail banks, institutional hedge funds, and other very large asset management companies.
 
-Working with a MEAN stack (M for MySQL) in an Agile environment, my main purpose is influencing front-end architecture decisions to the rest of the team (mainly Java developers) and sparking new ideas in an industry that conventionally uses Java and GWT.
+Using Angular 1.x, Bootstrap, KendoUI on the client side. NodeJS, Sails, Socket.IO, RabbitMQ on the server side. I run the full stack and sit between a diverse team of Java/C/C++ engineers and Business Analysts. Other duties involve integrating with other internal services (authentication), monitoring and managing MySQL performance.
 
-A portion of my time is spent building internal tools to improve the work flow of our Managed Services and Client Services teams across our main, multi-tenant application.
-
-As of 2015 I have been tasked with re-building the entire UI of one of our risk management offerings, APT Enterprise. We're using SailsJS (Real-Time NodeJs MVC framework) for the REST API and AngularJS for the client side MVC framework. For large data grids we also leverage React to get much faster render times when Angulars $digest cycle gets too slow. We use KendoUI throughout this application plus a library of hand-crafted components. Our Sails application reads from a read-only database instance and then proxies requests through to a traditional Java app server via AMQP.
-
-SunGard was acquired in December 2015 by FIS Global.
-
+E2E Testing is done using WebDriverIO 3.6.4. Unit testing is done via Bamboo triggering full builds that run a Mocha test suite.
 
 ------
 
@@ -73,19 +38,23 @@ SunGard was acquired in December 2015 by FIS Global.
 
 __TOAD__ : *Contract Lead Front-End Developer* __June 2014 - March 2015__
 
-Worked on various projects at TOAD. Primarily building an MVP of a gambling app that is similar to a football accumulator, where friends predict scores based on Premier League football and optionally include a wager. The winner is the one with the closest predictions. The site utlised Enetpulse - the same live scoring service that powered the IMG DGE I built at Livestream (below). I also worked on various other projects such as a full site build for a Global M, a large gloabl recruitment company, and maintenance for various other small projects such as for Propia.
+Worked on various projects and site builds, the primary focus being Global {M}. Also worked on an MVP of a gambling application utilising Enetpulse that enabled people to essentially run a sweepstake/accumulator within a group of friends, called Play Steak. This was eventually renamed to Goalmouth.
 
 
 
 __Livestream__ : *Dev lead & Front-End Developer* __July 2013 - June 2014__
 
-Built a full, end-to-end, b2b2c, PaaS product from scratch which allowed third party betting/gaming websites to syndicate live sports content to their consumers, utilising the scalability of Google App Engine. This product was a joint effort between IMG Media and Livestream, known as the IMG DGE (Digital Gaming Exchange). Working as a sole FED with 4 Java developers and attended company hackathons in Ukraine. Used AngularJS and Bootstrap heavily throughout the project. We built an entire analytics platform in a week using Google BigQuery. I also built a real time map (mapbox/leafletjs) that showed connections to the platform in real time (pubnub), drawing with d3. Other duties include liaising with a globally distributed team, delegating work, communicating directly with our client, general project and product management, managing timings and scheduling releases.
+Built the IMG DGE when Livestream EMEA was its own entity. Working as a sole FED with 4 Java developers and attended company hackathons in Ukraine.
+
+We used AngularJS 1.x and Bootstrap heavily throughout the project. We built an entire analytics platform in a week using Google BigQuery. I also built a real-time map (mapbox/leafletjs) that showed connections to the platform in real time (pubnub), drawing with d3.
+
+Other duties include liaising with a globally distributed team, delegating work, communicating directly with our client, general project and product management, managing timings, and scheduling releases.
 
 
 
 __Reactive__ : *Permanent Senior Front-End Developer* __February 2013 - July 2013__
 
-Worked on redevelopment of Tesco Real Food. Complete overhaul of Tesco magazine. Developed new gallery features for BA High Life and BA Business High Life. Inherited Newsgator.com and worked with third party companies on the deployment. Worked on a project for Intelligent Energy, a responsive website that had to cater for devices of all different resolutions from 240px wide up to and beyond 1600px. I was largely a sole FED, but liaised with the Managing Director directly to find, interview, and shortlist new developers. Shortly after joining Reactive I were head hunted to join Livestream.
+Projects: Tesco Real Food, BA High Life, BA Business Life, Newsgator.com, Intelligent Energy UP (portable hydrogen fuel cell). Other duties include liaising with the Managing Director directly to find, interview, and shortlist new developers. Shortly after joining Reactive I was head hunted to join Livestream.
 
 
 
@@ -117,11 +86,20 @@ Various projects for Sony Ericsson, Volkswagen, Unilever and others
 
 __Candi__ : *Permanent Junior Front-End Developer* __June 2008 - December 2009__
 
-Morrisons, John Lewis
+Morrisons, John Lewis Fashion launch
 
 
 
 __dotGroup Plc (formerly known as Ellipsis Media)__ : *Permanent Junior Front-End Developer* __March 2007 - February 2008__
+
+
+------
+
+### Side Projects
+__Trug__ : An IoT device that takes the smart-home to a whole new level of food and waste management
+__sonos-nest-autostart__ : Automatically starts the Sonos when the Nest Camera detects we're home. Stops the music when it detects we are no longer home.
+__GetDarker__ : 2004-2014 worked with my elder brother on a platform pushing Dubstep music. Built and managed our own streaming network from scratch, utilising 3gbps of dedicated bandwidth through WOWZA Media Server delivering live 'TV' broadcasts of DJs playing sets to a global audience. In 2004 we streamed RinseFM (at the time was a Pirate Radio only available in London) over the Internet to help enable worldwide listeners. 2009 we worked on an audio file sharing service for artists and producers - similar to what SoundCloud has become today. Released various compilation albums over the years and been privileged enough to have thrown many parties around the world as a result.
+__guano__ : A small set of PHP scripts that abused Twitter APIs and amassed me 100k followers. (Has since declined to 36k).
 
 
 ------
